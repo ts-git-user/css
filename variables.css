@@ -1,0 +1,40 @@
+/*! ThoughtSpot 2022-09-17
+* http://www.thoughtspot.com/
+* Copyright (c) 2022 ThoughtSpot 
+*/
+:root {
+  /* App */
+  --ts-var-root-color: initial;
+  --ts-var-root-background: initial;
+  --ts-var-root-font-family: initial;
+  --ts-var-root-text-transform: initial;
+  /* Nav Bar */
+  --ts-var-nav-color: crimson;
+  --ts-var-nav-background: white;
+  /* Button */
+  --ts-var-button-border-radius: initial;
+  --ts-var-button--icon-border-radius: initial;
+  --ts-var-button--primary-color: initial;
+  --ts-var-button--primary-background: initial;
+  --ts-var-button--primary--hover-background: initial;
+  --ts-var-button--primary--font-family: initial;
+  --ts-var-button--secondary-color: initial;
+  --ts-var-button--secondary-background: initial;
+  --ts-var-button--secondary--hover-background: initial;
+  --ts-var-button--secondary--font-family: initial;
+  --ts-var-button--tertiary-color: initial;
+  --ts-var-button--tertiary-background: initial;
+  --ts-var-button--tertiary--hover-background: initial;
+  /* Viz */
+  --ts-var-viz-title-color: initial;
+  --ts-var-viz-title-font-family: initial;
+  --ts-var-viz-title-text-transform: initial;
+  --ts-var-viz-description-color: initial;
+  --ts-var-viz-description-font-family: initial;
+  --ts-var-viz-description-text-transform: initial;
+  --ts-var-viz-border-radius: initial;
+  --ts-var-viz-box-shadow: initial;
+  --ts-var-viz-background: initial;
+}
+
+/*# sourceMappingURL=custom_variables.css.map */
