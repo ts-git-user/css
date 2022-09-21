@@ -50,7 +50,7 @@
   --ts-var-viz-description-font-family: initial;
   --ts-var-viz-description-text-transform: initial;
   --ts-var-viz-border-radius: 15px;
-  --ts-var-viz-box-shadow: 1px 2px 20px #888888;
+  --ts-var-viz-box-shadow: 1px 2px 5px #888888;
   --ts-var-viz-background: initial;
 }
 
