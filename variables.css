@@ -13,7 +13,7 @@
 
 :root {
   /* App */
-  --ts-var-root-color: initial;
+  --ts-var-root-color: black;
   --ts-var-root-background: initial;
   --ts-var-root-font-family: "Italiana";
   --ts-var-root-text-transform: initial;
@@ -21,7 +21,7 @@
   --ts-var-nav-color: white;
   --ts-var-nav-background: crimson;
   /* Button */
-  --ts-var-button-border-radius: 15px 30px 30px 30px;
+  --ts-var-button-border-radius: 15px 15px 30px 30px;
   --ts-var-button--icon-border-radius: initial;
   --ts-var-button--primary-color: white;
   --ts-var-button--primary-background: black;
