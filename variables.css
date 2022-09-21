@@ -23,23 +23,30 @@
   /* Button */
   --ts-var-button-border-radius: 5px;
   --ts-var-button--icon-border-radius: initial;
+
+  /* Primary buttons: For instance the Go button on the Search bar, when the search bar is clicked on */
   --ts-var-button--primary-color: white;
   --ts-var-button--primary-background: crimson;
-  --ts-var-button--primary--hover-background: red;
+  --ts-var-button--primary--hover-background: #C70039;
   --ts-var-button--primary--font-family: initial;
-  --ts-var-button--secondary-color: white;
-  --ts-var-button--secondary-background: blue;
-  --ts-var-button--secondary--hover-background: purple;
+  
+  /* Secondary buttons: For instance most of the buttons on a Liveboard */
+  --ts-var-button--secondary-color: initial;
+  --ts-var-button--secondary-background: initial;
+  --ts-var-button--secondary--hover-background: initial;
   --ts-var-button--secondary--font-family: initial;
-  --ts-var-button--tertiary-color: white;
-  --ts-var-button--tertiary-background: yellow;
+  
+  /* Tertiary buttons: Example the forward / back buttons */
+  --ts-var-button--tertiary-color: initial;
+  --ts-var-button--tertiary-background: initial;
   --ts-var-button--tertiary--hover-background: initial;
+  
   /* Viz */
   --ts-var-viz-title-color: crimson;
   --ts-var-viz-title-font-family: initial;
-  --ts-var-viz-title-text-transform: italic;
-  --ts-var-viz-description-color: black;
-  --ts-var-viz-description-font-family: initial;
+  --ts-var-viz-title-text-transform: initial;
+  --ts-var-viz-description-color: #A4A4A3;
+  --ts-var-viz-description-font-family: italic;
   --ts-var-viz-description-text-transform: initial;
   --ts-var-viz-border-radius: 10px;
   --ts-var-viz-box-shadow: initial;
