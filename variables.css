@@ -12,17 +12,27 @@
 }
 
 :root {
-  /* App */
-  --ts-var-root-color: black;
+  /******** App ********/
+  
+  /*Currently undefined */
+  --ts-var-root-color: initial; 
+  
+  /*App background, app-wide font, app-wide text transform */
   --ts-var-root-background: initial;
   --ts-var-root-font-family: initial;
   --ts-var-root-text-transform: initial;
-  /* Nav Bar */
-  --ts-var-nav-color: yellow;
+
+  /******** Nav bar ********/
+  /*Nav bar font color, background color*/
+  --ts-var-nav-color: white;
   --ts-var-nav-background: crimson;
   
-  /* Button */
+  /******** Buttons ********/
+  
+  /* App wide button design for main buttons*/
   --ts-var-button-border-radius: 5px;
+  
+  /* App wide button design for smaller buttons (ex: share, favorite, etc.)*/
   --ts-var-button--icon-border-radius: 5px;
 
   /* Primary buttons: For instance the Go button on the Search bar, when the search bar is clicked on */
@@ -42,13 +52,18 @@
   --ts-var-button--tertiary-background: initial;
   --ts-var-button--tertiary--hover-background: initial;
   
-  /* Viz */
+  /******** Visualizations ********/
+  /* Viz title customizations*/
   --ts-var-viz-title-color: crimson;
   --ts-var-viz-title-font-family: initial;
   --ts-var-viz-title-text-transform: italic;
+
+  /* Viz subtitle customizations*/
   --ts-var-viz-description-color: #A4A4A3;
   --ts-var-viz-description-font-family: initial;
   --ts-var-viz-description-text-transform: initial;
+  
+  /* Viz area customizations*/
   --ts-var-viz-border-radius: 15px;
   --ts-var-viz-box-shadow: 1px 2px 5px #888888;
   --ts-var-viz-background: initial;
