@@ -18,14 +18,14 @@
   --ts-var-root-color: initial; 
   
   /*App background, app-wide font, app-wide text transform */
-  --ts-var-root-background: initial;
+  --ts-var-root-background: #FFF0F0;
   --ts-var-root-font-family: initial;
   --ts-var-root-text-transform: initial;
 
   /******** Nav bar ********/
   /*Nav bar font color, background color*/
-  --ts-var-nav-color: white;
-  --ts-var-nav-background: crimson;
+  --ts-var-nav-color: #F9B3B9;
+  --ts-var-nav-background: #B6313E;
   
   /******** Buttons ********/
   
@@ -43,8 +43,8 @@
   
   /* Secondary buttons: For instance most of the buttons on a Liveboard */
   --ts-var-button--secondary-color: initial;
-  --ts-var-button--secondary-background: initial;
-  --ts-var-button--secondary--hover-background: initial;
+  --ts-var-button--secondary-background: #FFEBEC;
+  --ts-var-button--secondary--hover-background: #FCD4D7;
   --ts-var-button--secondary--font-family: initial;
   
   /* Tertiary buttons: Example the forward / back buttons */
