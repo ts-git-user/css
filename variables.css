@@ -36,9 +36,9 @@
   --ts-var-button--icon-border-radius: 5px;
 
   /* Primary buttons: For instance the Go button on the Search bar, when the search bar is clicked on */
-  --ts-var-button--primary-color: white;
-  --ts-var-button--primary-background: crimson;
-  --ts-var-button--primary--hover-background: #C70039;
+  --ts-var-button--primary-color: initial;
+  --ts-var-button--primary-background: #E22B3D;
+  --ts-var-button--primary--hover-background: #B6313E;
   --ts-var-button--primary--font-family: initial;
   
   /* Secondary buttons: For instance most of the buttons on a Liveboard */
