@@ -18,12 +18,14 @@
   --ts-var-root-color: initial; 
   
   /*App background, app-wide font, app-wide text transform */
+  /* Note: In Radiant design, background app color will be shade 10 */
   --ts-var-root-background: #FFF0F0;
   --ts-var-root-font-family: initial;
   --ts-var-root-text-transform: initial;
 
   /******** Nav bar ********/
   /*Nav bar font color, background color*/
+  /* Note: In Radiant design, background nav color will be shade 70, font color shade 40 */
   --ts-var-nav-color: #F9B3B9;
   --ts-var-nav-background: #B6313E;
   
@@ -36,12 +38,14 @@
   --ts-var-button--icon-border-radius: 5px;
 
   /* Primary buttons: For instance the Go button on the Search bar, when the search bar is clicked on */
+  /* Note: In Radiant design, primary button color will be shade 60, hover shade 70 */
   --ts-var-button--primary-color: initial;
   --ts-var-button--primary-background: #E22B3D;
   --ts-var-button--primary--hover-background: #B6313E;
   --ts-var-button--primary--font-family: initial;
   
   /* Secondary buttons: For instance most of the buttons on a Liveboard */
+  /* Note: In Radiant design, secondary button color will be shade 20, hover shade 30 */
   --ts-var-button--secondary-color: initial;
   --ts-var-button--secondary-background: #FFEBEC;
   --ts-var-button--secondary--hover-background: #FCD4D7;
