@@ -18,12 +18,10 @@
 :root {
   /******** App ********/
   
-  /*Currently undefined */
-  --ts-var-root-color: initial; 
-  
-  /*App background, app-wide font, app-wide text transform */
+  /* App-wide background, app-wide text color, app-wide font, app-wide text transform */
   /* Note: In Radiant design, background app color will be shade 10 */
   --ts-var-root-background: #FFF0F0;
+  --ts-var-root-color: initial; 
   --ts-var-root-font-family: initial;
   --ts-var-root-text-transform: initial;
 
