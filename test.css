@@ -1,4 +1,25 @@
- /* Primary buttons: For example, the Go button in the search bar, the Pin and Save buttons on the search results page */
+:root {
+/******** App ********/
+
+  /* Application-wide background, app-wide text color, app-wide font, app-wide text transform */
+  --ts-var-root-background: #FFF0F0;
+  --ts-var-root-color: #FFF0F0;
+  --ts-var-root-font-family: Optimo-Plain,Helvetica Neue,Helvetica,Arial,sans-serif;
+  --ts-var-root-text-transform: initial;
+
+  /******** Top navigation panel ********/
+  /*Font color and background color of the navigation panel*/
+  --ts-var-nav-color: #F9B3B9;
+  --ts-var-nav-background: #B6313E;
+
+  /******** Buttons ********/
+  /* Application-wide button design for main buttons. For example, Search data*/
+  --ts-var-button-border-radius: 5px;
+
+  /* Application-wide button design for smaller buttons. For example, buttons with share and favorite icons*/
+  --ts-var-button--icon-border-radius: 5px;
+
+  /* Primary buttons: For example, the Go button in the search bar, the Pin and Save buttons on the search results page */
   --ts-var-button--primary-color: #ffffff;
   --ts-var-button--primary-background: #2770ef;
   --ts-var-button--primary--hover-background: #B6313E;
