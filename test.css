@@ -1,0 +1,33 @@
+ /* Primary buttons: For example, the Go button in the search bar, the Pin and Save buttons on the search results page */
+  --ts-var-button--primary-color: #ffffff;
+  --ts-var-button--primary-background: #2770ef;
+  --ts-var-button--primary--hover-background: #B6313E;
+  --ts-var-button--primary--font-family: Optimo-Plain,Helvetica Neue,Helvetica,Arial,sans-serif;
+
+  /* Secondary buttons. For example, the Edit and Explore buttons on the Liveboard page*/
+  --ts-var-button--secondary-color: #1d232f;
+  --ts-var-button--secondary-background: #eaedf2;
+  --ts-var-button--secondary--hover-background: #FCD4D7;
+  --ts-var-button--secondary--font-family: Optimo-Plain,Helvetica Neue,Helvetica,Arial,sans-serif;
+
+  /* Tertiary buttons. For example, the Undo, Redo buttons on the search results page*/
+  --ts-var-button--tertiary-color: #1d232;
+  --ts-var-button--tertiary-background: #FFFFFF;
+  --ts-var-button--tertiary--hover-background: #f5f5f5;
+
+  /******** Visualizations ********/
+  /* Visualization title text customization*/
+  --ts-var-viz-title-color: #C0C6CF;
+  --ts-var-viz-title-font-family: Optimo-Plain,Helvetica Neue,Helvetica,Arial,sans-serif;;
+  --ts-var-viz-title-text-transform: Capitalize;
+
+  /* Visualization subtitle and description text customization*/
+  --ts-var-viz-description-color: #A4A4A3;
+  --ts-var-viz-description-font-family: Optimo-Plain,Helvetica Neue,Helvetica,Arial,sans-serif;
+  --ts-var-viz-description-text-transform: Capitalize;
+
+  /* Visualization tile customization*/
+  --ts-var-viz-border-radius: 15px;
+  --ts-var-viz-box-shadow: 1px 2px 5px #888888;
+  --ts-var-viz-background: #F6F8FA;
+}
