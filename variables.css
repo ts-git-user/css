@@ -26,10 +26,13 @@
   --ts-var-root-text-transform: initial;
 
   /******** Nav bar ********/
-  /*Nav bar font color, background color*/
+  /*Nav bar font color, background color, color, background, and font family of the search data button in the navigation */
   /* Note: In Radiant design, background nav color will be shade 70, font color shade 40 */
   --ts-var-nav-color: #F9B3B9;
   --ts-var-nav-background: #B6313E;
+  --ts-var-search-data-button-font-color: var(--ts-var-root-color);
+  --ts-var-search-data-button-background: initial;
+  --ts-var-search-data-button-font-family: var(--ts-var-root-font-family);
   
   /******** Buttons ********/
   
@@ -73,6 +76,50 @@
   --ts-var-viz-border-radius: 15px;
   --ts-var-viz-box-shadow: 1px 2px 5px #888888;
   --ts-var-viz-background: initial;
+  
+ /******** Search bar ********/
+  --ts-var-search-bar-text-font-color: var(--ts-var-root-color);
+  --ts-var-search-bar-text-font-family: var(--ts-var-root-font-family);
+  --ts-var-search-bar-text-font-style: initial;
+  
+  /******** Data Panel in Answers Tab ********/
+  --ts-var-answer-data-panel-background-color: initial;
+
+/* Chart */
+  --ts-var-answer-chart-select-background: initial;
+  --ts-var-answer-chart-hover-background: initial;
+  /* Viz */
+  --ts-var-viz-title-color: var(--ts-var-root-color);
+  --ts-var-viz-title-font-family: var(--ts-var-root-font-family);
+  --ts-var-viz-title-text-transform: var(--ts-var-root-text-transform);
+  --ts-var-viz-description-color: var(--ts-var-root-color);
+  --ts-var-viz-description-font-family: var(--ts-var-root-font-family);
+  --ts-var-viz-description-text-transform: var(--ts-var-root-text-transform);
+  --ts-var-viz-border-radius: initial;
+  --ts-var-viz-box-shadow: initial;
+  --ts-var-viz-background: initial;
+  --ts-var-viz-legend-hover-background:initial;
+  /* Chip */
+  --ts-var-chip-border-radius: initial;
+  --ts-var-chip-title-font-family: var(--ts-var-root-font-family);
+  --ts-var-chip-box-shadow: initial;
+  --ts-var-chip-background: initial;
+  --ts-var-chip-color: var(--ts-var-root-color);
+  --ts-var-chip--hover-background:initial;
+  --ts-var-chip--hover-color:var(--ts-var-root-color);
+  --ts-var-chip--active-background:initial;
+  --ts-var-chip--active-color:initial;
+  /* Axis */
+  --ts-var-axis-title-color: var(--ts-var-root-color);
+  --ts-var-axis-title-font-family: var(--ts-var-root-font-family);
+  --ts-var-axis-data-label-color: var(--ts-var-root-color);
+  --ts-var-axis-data-label-font-family: var(--ts-var-root-font-family);
+  /* Menu */
+  --ts-var-menu-color: var(--ts-var-root-color);
+  --ts-var-menu-background: initial;
+  --ts-var-menu-font-family: var(--ts-var-root-font-family);
+  --ts-var-menu-text-transform: var(--ts-var-root-text-transform);
+  --ts-var-menu--hover-background: initial;
 }
 
 /*# sourceMappingURL=custom_variables.css.map */
