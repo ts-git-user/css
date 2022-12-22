@@ -25,103 +25,103 @@
   /////***** Nav bar *****\\\\\
   /* Nav bar font color, background color, color, background, and font family of the search data button in the navigation */
   /* Note: In Radiant design, background nav color will be shade 70, font color shade 40 */
-  --ts-var-nav-color: #F9B3B9,
-  --ts-var-nav-background: #B6313E,
-  --ts-var-search-data-button-font-color: var(--ts-var-root-color),
-  --ts-var-search-data-button-background: initial,
-  --ts-var-search-data-button-font-family: var(--ts-var-root-font-family),
+  --ts-var-nav-color: #F9B3B9;
+  --ts-var-nav-background: #B6313E;
+  --ts-var-search-data-button-font-color: var(--ts-var-root-color);
+  --ts-var-search-data-button-background: initial;
+  --ts-var-search-data-button-font-family: var(--ts-var-root-font-family);
           
   /////***** Buttons *****\\\\\
   /* App wide button design for main buttons*/
-  --ts-var-button-border-radius: 5px,
+  --ts-var-button-border-radius: 5px;
           
   /* App wide button design for smaller buttons (ex: share, favorite, etc.)*/
-  --ts-var-button--icon-border-radius: 5px,
+  --ts-var-button--icon-border-radius: 5px;
         
   /* Primary buttons: For instance the Go button on the Search bar, when the search bar is clicked on */
   /* Note: In Radiant design, primary button color will be shade 60, hover shade 70 */
-  --ts-var-button--primary-color: white,
-  --ts-var-button--primary-background: #373737,
-  --ts-var-button--primary--hover-background: #373737,
-  --ts-var-button--primary--font-family: initial,
+  --ts-var-button--primary-color: white;
+  --ts-var-button--primary-background: #373737;
+  --ts-var-button--primary--hover-background: #373737;
+  --ts-var-button--primary--font-family: initial;
   
   /* Secondary buttons: For instance most of the buttons on a Liveboard */
   /* Note: In Radiant design, secondary button color will be shade 20, hover shade 30 */
-  --ts-var-button--secondary-color: white,
-  --ts-var-button--secondary-background: #454648,
-  --ts-var-button--secondary--hover-background: #454648,
-  --ts-var-button--secondary--font-family: initial,
+  --ts-var-button--secondary-color: white;
+  --ts-var-button--secondary-background: #454648;
+  --ts-var-button--secondary--hover-background: #454648;
+  --ts-var-button--secondary--font-family: initial;
           
   /* Tertiary buttons: Example the forward / back buttons */
-  --ts-var-button--tertiary-color: initial,
-  --ts-var-button--tertiary-background: initial,
-  --ts-var-button--tertiary--hover-background: initial,
+  --ts-var-button--tertiary-color: initial;
+  --ts-var-button--tertiary-background: initial;
+  --ts-var-button--tertiary--hover-background: initial;
           
   /////***** LIVEBOARDS *****\\\\\
   /******** Visualizations ********/
   /* Viz title customizations*/
   
-  --ts-var-viz-title-color: #fff,
-  --ts-var-viz-title-font-family: initial,
-  --ts-var-viz-title-text-transform: italic,
+  --ts-var-viz-title-color: #fff;
+  --ts-var-viz-title-font-family: initial;
+  --ts-var-viz-title-text-transform: italic;
         
   /* Viz subtitle customizations*/
-  --ts-var-viz-description-color: #A4A4A3,
-  --ts-var-viz-description-font-family: initial,
-  --ts-var-viz-description-text-transform: initial,
+  --ts-var-viz-description-color: #A4A4A3;
+  --ts-var-viz-description-font-family: initial;
+  --ts-var-viz-description-text-transform: initial;
           
   /* Viz area customizations*/
-  // --ts-var-viz-border-radius: 15px,
-  // --ts-var-viz-box-shadow: 1px 2px 5px #888888,
-  --ts-var-viz-background:#1f1f1f,
-  --ts-var-viz-legend-hover-background:#454648,
+  // --ts-var-viz-border-radius: 15px;
+  // --ts-var-viz-box-shadow: 1px 2px 5px #888888;
+  --ts-var-viz-background:#1f1f1f;
+  --ts-var-viz-legend-hover-background:#454648;
           
   /* Viz and answer dropdown menus (axis, liveboard menu, drill menu, etc.) */
   --ts-var-menu-color: var(--ts-var-root-color),
-  --ts-var-menu-background:#131313,
-  --ts-var-menu-font-family: var(--ts-var-root-font-family),
-  --ts-var-menu-text-transform: var(--ts-var-root-text-transform),
-  --ts-var-menu--hover-background:#454648,
+  --ts-var-menu-background:#131313;
+  --ts-var-menu-font-family: var(--ts-var-root-font-family);
+  --ts-var-menu-text-transform: var(--ts-var-root-text-transform);
+  --ts-var-menu--hover-background:#454648;
           
   /* Chart Axis formatting */
-  --ts-var-axis-title-color: var(--ts-var-root-color),
-  --ts-var-axis-title-font-family: var(--ts-var-root-font-family),
+  --ts-var-axis-title-color: var(--ts-var-root-color);
+  --ts-var-axis-title-font-family: var(--ts-var-root-font-family);
   
   /* Color on data labels */
-  --ts-var-axis-data-label-color: var(--ts-var-root-color),
-  --ts-var-axis-data-label-font-family: var(--ts-var-root-font-family),
+  --ts-var-axis-data-label-color: var(--ts-var-root-color);
+  --ts-var-axis-data-label-font-family: var(--ts-var-root-font-family);
           
   /******** Chip: The filter chips on liveboards and answers ********/
   /* Chip layout */
   
-  --ts-var-chip-border-radius: var(--ts-var-button-border-radius),
-  --ts-var-chip-title-font-family: var(--ts-var-root-font-family),
-  --ts-var-chip-box-shadow: initial,
+  --ts-var-chip-border-radius: var(--ts-var-button-border-radius);
+  --ts-var-chip-title-font-family: var(--ts-var-root-font-family);
+  --ts-var-chip-box-shadow: initial;
           
   /* Chip default background and font color */
-  --ts-var-chip-background:#373737,
-  --ts-var-chip-color: var(--ts-var-root-color),
+  --ts-var-chip-background:#373737;
+  --ts-var-chip-color: var(--ts-var-root-color);
           
   /* Chip default background and font color */
-  --ts-var-chip--hover-background:#454648,
-  --ts-var-chip--hover-color:var(--ts-var-root-color),
+  --ts-var-chip--hover-background:#454648;
+  --ts-var-chip--hover-color:var(--ts-var-root-color);
   
   /* Chip default background and font color */
-  --ts-var-chip--active-background:initial,
-  --ts-var-chip--active-color:initial,
+  --ts-var-chip--active-background:initial;
+  --ts-var-chip--active-color:initial;
           
   /////***** SEARCH BAR *****\\\\\
-  --ts-var-search-bar-text-font-color: var(--ts-var-root-color),
-  --ts-var-search-bar-text-font-family: var(--ts-var-root-font-family),
-  --ts-var-search-bar-text-font-style: initial,
+  --ts-var-search-bar-text-font-color: var(--ts-var-root-color);
+  --ts-var-search-bar-text-font-family: var(--ts-var-root-font-family);
+  --ts-var-search-bar-text-font-style: initial;
   
   /////***** ANSWERS *****\\\\\
   /* Chart picker menu */ 
-  --ts-var-answer-chart-select-background: #373737,
-  --ts-var-answer-chart-hover-background: #454648,  
+  --ts-var-answer-chart-select-background: #373737;
+  --ts-var-answer-chart-hover-background: #454648; 
   
   /* Data Panel in Answers Tab */
-  --ts-var-answer-data-panel-background-color:var(--ts-var-viz-background),
+  --ts-var-answer-data-panel-background-color:var(--ts-var-viz-background);
 }
 
 /*# sourceMappingURL=custom_variables.css.map */
