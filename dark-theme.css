@@ -77,7 +77,7 @@
   --ts-var-viz-legend-hover-background:#454648;
           
   /* Viz and answer dropdown menus (axis, liveboard menu, drill menu, etc.) */
-  --ts-var-menu-color: var(--ts-var-root-color),
+  --ts-var-menu-color: var(--ts-var-root-color);
   --ts-var-menu-background:#131313;
   --ts-var-menu-font-family: var(--ts-var-root-font-family);
   --ts-var-menu-text-transform: var(--ts-var-root-text-transform);
