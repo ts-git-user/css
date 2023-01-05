@@ -134,7 +134,9 @@
   /***** ANSWERS *****/
   /* Chart picker menu */ 
   --ts-var-answer-chart-select-background: #373737;
-  --ts-var-answer-chart-hover-background: #454648; 
+  --ts-var-answer-chart-hover-background: #454648;
+  --ts-var-answer-view-table-chart-switcher-active-background: #373737;
+  --ts-var-answer-view-table-chart-switcher-background: #454648;
   
   /* Data Panel in Answers Tab */
   --ts-var-answer-data-panel-background-color:var(--ts-var-viz-background);
