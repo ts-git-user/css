@@ -85,6 +85,13 @@
   --ts-var-menu-font-family: var(--ts-var-root-font-family);
   --ts-var-menu-text-transform: var(--ts-var-root-text-transform);
   --ts-var-menu--hover-background:#454648;
+  
+  /* Popup windows */
+  --ts-var-dialog-body-background: var(--ts-var-viz-background);
+  --ts-var-dialog-body-color: var(--ts-var-root-color);
+  --ts-var-dialog-header-background: var(--ts-var-viz-background);
+  --ts-var-dialog-header-color: var(--ts-var-root-color);
+  --ts-var-dialog-footer-background: var(--ts-var-viz-background);
           
   /* Chart Axis formatting */
   --ts-var-axis-title-color: var(--ts-var-root-color);
