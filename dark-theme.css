@@ -56,9 +56,9 @@
   --ts-var-button--secondary--font-family: initial;
           
   /* Tertiary buttons: Example the forward / back buttons */
-  --ts-var-button--tertiary-color: initial;
-  --ts-var-button--tertiary-background: initial;
-  --ts-var-button--tertiary--hover-background: initial;
+  --ts-var-button--tertiary-color: white;
+  --ts-var-button--tertiary-background: #454648;
+  --ts-var-button--tertiary--hover-background: #454648;
           
   /***** LIVEBOARDS *****/
   /******** Visualizations ********/
@@ -121,9 +121,15 @@
   --ts-var-chip--active-color:initial;
           
   /***** SEARCH BAR *****/
-  --ts-var-search-bar-text-font-color: var(--ts-var-root-color);
+  --ts-var-search-bar-text-font-color: black;
   --ts-var-search-bar-text-font-family: var(--ts-var-root-font-family);
   --ts-var-search-bar-text-font-style: initial;
+  --ts-var-search-bar-background: var(--ts-var-viz-background);
+  --ts-var-search-auto-complete-background: var(--ts-var-search-bar-background);
+  --ts-var-search-navigation-button-background: var(--ts-var-search-bar-background);
+  --ts-var-search-bar-navigation-help-text-background: grey;
+  --ts-var-search-bar-auto-complete-hover-background: var(--ts-var-button--secondary--hover-background);
+  
   
   /***** ANSWERS *****/
   /* Chart picker menu */ 
