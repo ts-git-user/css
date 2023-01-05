@@ -16,7 +16,7 @@
 /****************************************/
 
 :root {
-  /////***** App *****\\\\\
+  /***** App *****/
   
   /* App-wide background, app-wide text color, app-wide font, app-wide text transform */
   /* Note: In Radiant design, background app color will be shade 10 */
@@ -25,7 +25,7 @@
   --ts-var-root-font-family: initial;
   --ts-var-root-text-transform: initial;
 
-  /////***** Nav bar *****\\\\\
+  /***** Nav bar *****/
   /* Nav bar font color, background color, color, background, and font family of the search data button in the navigation */
   /* Note: In Radiant design, background nav color will be shade 70, font color shade 40 */
   --ts-var-nav-color: #F9B3B9;
@@ -34,7 +34,7 @@
   --ts-var-search-data-button-background: initial;
   --ts-var-search-data-button-font-family: var(--ts-var-root-font-family);
   
-  /////***** Buttons *****\\\\\
+  /***** Buttons *****/
   
   /* App wide button design for main buttons*/
   --ts-var-button-border-radius: 5px;
@@ -61,7 +61,7 @@
   --ts-var-button--tertiary-background: initial;
   --ts-var-button--tertiary--hover-background: initial;
   
-  /////***** LIVEBOARDS *****\\\\\
+  /***** LIVEBOARDS *****/
   
   /******** Visualizations ********/
   /* Viz title customizations*/
@@ -113,12 +113,12 @@
   --ts-var-chip--active-background:initial;
   --ts-var-chip--active-color:initial;
   
- /////***** SEARCH BAR *****\\\\\
+  /***** SEARCH BAR *****/
   --ts-var-search-bar-text-font-color: var(--ts-var-root-color);
   --ts-var-search-bar-text-font-family: var(--ts-var-root-font-family);
   --ts-var-search-bar-text-font-style: initial;
 
- /////***** ANSWERS *****\\\\\
+  /***** ANSWERS *****/
   /* Chart picker menu */ 
   --ts-var-answer-chart-select-background: initial;
   --ts-var-answer-chart-hover-background: initial;  
