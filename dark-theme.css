@@ -28,8 +28,8 @@
   /***** Nav bar *****/
   /* Nav bar font color, background color, color, background, and font family of the search data button in the navigation */
   /* Note: In Radiant design, background nav color will be shade 70, font color shade 40 */
-  --ts-var-nav-color: #F9B3B9;
-  --ts-var-nav-background: #B6313E;
+  --ts-var-nav-color: initial;
+  --ts-var-nav-background: initial;
   --ts-var-search-data-button-font-color: var(--ts-var-root-color);
   --ts-var-search-data-button-background: initial;
   --ts-var-search-data-button-font-family: var(--ts-var-root-font-family);
