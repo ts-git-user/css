@@ -98,7 +98,7 @@
   --ts-var-axis-title-font-family: var(--ts-var-root-font-family);
   
   /* Color on data labels */
-  --ts-var-axis-data-label-color: #777E8B;
+  --ts-var-axis-data-label-color:#777E8B;
   --ts-var-axis-data-label-font-family: var(--ts-var-root-font-family);
           
   /******** Chip: The filter chips on liveboards and answers ********/
